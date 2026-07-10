@@ -1,1 +1,44 @@
-﻿Write the pseudocode for checking a prime number here...
+﻿ALGORITHM: Prime Number Check
+
+START
+    // Step 1: Take the number as input
+    INPUT N
+
+    // Step 2: Handle edge cases (0 and 1 are not prime)
+    IF N <= 1 THEN
+        PRINT N + " is NOT a Prime Number"
+        EXIT
+    END IF
+
+    // Step 3: Loop to check for factors
+    // Ek prime number kisi se divide nahi hota (except 1 and itself)
+    DECLARE divisor = 2
+    DECLARE isPrime = TRUE
+
+    WHILE divisor < N DO
+        IF (N % divisor == 0) THEN    // '%' gives the remainder
+            isPrime = FALSE
+            BREAK                     // Factor mil gaya, loop se bahar niklo
+        END IF
+        divisor = divisor + 1
+    END WHILE
+
+    // Step 4: Final Output based on the flag
+    IF isPrime == TRUE THEN
+        PRINT N + " is a Prime Number"
+    ELSE
+        PRINT N + " is NOT a Prime Number"
+    END IF
+END
+
+=======================================================
+⚠️ ENGINEERING NOTE / DISCLAIMER:
+At this current stage, the primary objective is strictly 
+algorithmic mapping and building logical flow without 
+language barriers. 
+
+As we progress into further modules, these foundational 
+concepts (like iterations, modulo arithmetic, and $O(\sqrt{N})$ 
+time-complexity optimizations) will be explored and 
+implemented in deep, production-level Java.
+=======================================================
