@@ -38,7 +38,7 @@ The syllabus is structured into a three-tier architecture to ensure a predictabl
 - [ ] **Bitwise Manipulation & Math:** Bitmasking techniques, XOR optimization hacks, Sieve of Eratosthenes, and the Euclidean algorithm.
 - [ ] **Object-Oriented Design (OOPs):** Abstraction, Encapsulation, Inheritance, Polymorphism. Classes, Interfaces, and Generics.
 
-### 🔴 Advanced Level: Low-Level Data Engineering (The Boss Fights)
+### 🔴 Advanced Level: Low-Level Data Engineering
 *Peak algorithmic efficiency. Coding custom structures and optimizing recursive execution stacks.*
 - [ ] **Recursion & Divide-and-Conquer:** Deep analysis of Execution Trees. Merge Sort, Quick Sort, Subset generation.
 - [ ] **Backtracking Architecture:** N-Queens placement matrix, Knight's Tour, Rat in a Maze, Sudoku Solver.
